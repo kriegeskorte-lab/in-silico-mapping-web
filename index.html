@@ -353,11 +353,11 @@
       <p style="font-size: 1.1rem;">
         <b>TL;DR:</b> We train a cutting-edge transformer model to make fMRI predictions for the whole brain. We apply the model to select optimal stimuli from huge image datasets (<a href="https://arxiv.org/abs/2306.03089" target="_blank" rel="noopener noreferrer">BrainDIVE</a>, <a href="https://ieeexplore.ieee.org/document/5206848" target="_blank" rel="noopener noreferrer">ImageNet</a>), which we evaluate in silico using statistical tests on a held-out dataset. Our pipeline using brain encoders can test concepts that were not explicitly shown to the subject in the scanner, effectively enriching the diversity and size of the fMRI training set. These hypotheses can be tested in targeted future fMRI experiments by showing only the sets of optimal stimuli, accelerating data collection and experiment iteration, and lowering the cost of data acquisition.
       </p>
-      <p style="font-size: 1.1rem;">
+      <p>
         <section id="key-contributions">
   <br>
-  <h1><b>Key Contributions</b></h1>
-  <ol>
+  <h1 style="font-size: 2rem;" style="margin-bottom: 0.3em;"><b>Key Contributions</b></h1>
+  <ol style="font-size: 1.2rem;">
     <li><b>Massive scale:</b> applying in silico mapping on millions of images (ImageNet, BrainDIVE) with a transformer-based brain encoder, enabling discovery of parcel selectivity for concepts never shown in training. To the best of our knowledge, no other study has been done on this scale.</li>
     <li><b>Mapping of the whole brain:</b> expanding beyond visual cortex and revealing human-specific semantic selectivity.</b>We introduce a large-scale evaluation benchmark that captures both compositional and contextual reasoning.</li>
     <li><b>In silico verification:</b> our pipeline verifies selectivity hypotheses in silico with rigorous tests that evaluate how well a label can predict ground-truth activation on a held-out set within and across subjects.</li>
